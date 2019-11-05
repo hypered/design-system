@@ -36,6 +36,17 @@ The `docs/` directory is used because this repository can then use the GitHub
 Pages feature from the `master` branch.
 
 
+## xelatex PDF example
+
+In the `xelatex/` directory, run:
+
+```
+$ nix-build
+```
+
+The resulting PDF file is then `result/example.pdf`.
+
+
 ## Elsewhere
 
 - The [IBM design system](https://www.carbondesignsystem.com/) is open source.
