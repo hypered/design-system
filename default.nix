@@ -23,6 +23,7 @@ in rec
 
   md.lua = pandoc/lua.md;
 
+  docbook-example = (import docbook/default.nix {}).minimal;
   pandoc-example = to-html md.lua;
 
   app = (import ./release.nix).guide;
