@@ -4,6 +4,16 @@
 \documentclass[12pt, a4paper]{article}
 \usepackage{fontspec}
 
+% Converts LaTeX specials (quotes, triple dashes, ...) to unicode.
+\defaultfontfeatures{Mapping=tex-text}
+
+% Configure fonts.
+\setromanfont [
+  Path=./,
+  Ligatures={Common},
+  ]{ibm-plex-sans.ttf}
+
+% Configure PDF.
 \usepackage[
   bookmarks,
   colorlinks,
@@ -12,6 +22,7 @@
   pdfauthor={Vo Minh Thu}
   ]{hyperref}
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue}
+
 
 \begin{document}
 Example document.
