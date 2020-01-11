@@ -1,0 +1,2 @@
+- An example XSLT stylesheet to format some XML data as an HTML table.
+- Idem as a table in a PDF ?

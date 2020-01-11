@@ -1,0 +1,17 @@
+<machines>
+  <machine>
+    <name>host-1</name>
+    <ip-address>172.17.0.1</ip-address>
+    <status>up</status>
+  </machine>
+  <machine>
+    <name>host-2</name>
+    <ip-address>172.17.0.2</ip-address>
+    <status>booting</status>
+  </machine>
+  <machine>
+    <name>host-3</name>
+    <ip-address>172.17.0.41</ip-address>
+    <status>down</status>
+  </machine>
+</machines>
