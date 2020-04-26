@@ -80,7 +80,8 @@ npm run storybook
 
 ### Building static sites
 
-To build the Next.js pages into the `out/` directory:
+The main website, just like the components, is written in Next.js in the
+`pages/` directory. To build the Next.js pages into the `out/` directory:
 
 ```
 npm next build

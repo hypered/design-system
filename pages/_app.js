@@ -1,7 +1,12 @@
+// This file should match the the `document` function in `Hypered/Html.hs`.
+// That function can be called from the command-line as:
+//
+//   $ nix-shell --run "runghc bin/hypered-guide.hs wrapper"
+
 import React from "react";
 import App from "next/app";
-import { createGlobalStyle } from "styled-components";
 import Head from "next/head";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   * {
